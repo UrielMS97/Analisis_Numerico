@@ -1,5 +1,5 @@
 clc
-input('Ejercicio 2, metodo punto fijo\n');
+input('Metodo de Punto fijo\n');
 fx=input('Ingrese la funcion\n','s');
 x=-3:1:3;
 gx=input('Ingrese el despeje de la funcion\n','s');
