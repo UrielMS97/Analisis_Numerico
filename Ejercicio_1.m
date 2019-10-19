@@ -1,10 +1,10 @@
 clear all;
 clc;
 format short;
-fx=input('Introduzca la funcion= ','s')
-Xi=input('introduzca el valor de Xi= ');
-Xf=input('introduzca el valor de Xf= ');
-n=input('introduzca el numero de iteraciones= ');
+fx=input('Ingrese la funcion= ','s')
+Xi=input('Ingrese el valor de Xi= ');
+Xf=input('Ingrese el valor de Xf= ');
+n=input('Ingrese el numero de iteraciones= ');
 f = inline (fx);
 yi=f(Xi);
 yf=f(Xf);
